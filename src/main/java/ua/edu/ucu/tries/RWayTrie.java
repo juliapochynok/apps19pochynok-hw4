@@ -51,7 +51,6 @@ public class RWayTrie<Value> implements Trie {
     }
 
     @Override
-//    tut bulo public boolean
     public boolean delete(String word) {
          root = delete(root, word, 0);
          return true;
